@@ -14,7 +14,8 @@ We are going to cover:
 - Lists: Indentation and Family
 - Unordered Lists
 - Ordered Lists
-- Creating a Countdown List
+- Class and ID selectors in CSS
+
 
 
 
@@ -171,6 +172,37 @@ lower-greek|lower-latin|upper-latin|lower-alpha|upper-alpha|none|
 inherit;	
 ```
 
+## Class and ID selectors in CSS
+
+In CSS, class and ID selectors are used to identify various HTML elements. The main benefit of setting class or ID is that you can present the same HTML element differently, depending on its class or ID.
+	
+**Class selector**
+
+The class selector selects elements with a specific class attribute. It matches all the HTML elements based on the contents of their class attribute. The . symbol, along with the class name, is used to select the desired class.
+
+Classes are not unique:
+	
+- You can use the same class on multiple elements.
+- You can use multiple classes on the same element.
+
+```HTML
+<p class="widget">Content</p>	
+```
+	
+**ID selector**
+	
+The ID selector matches an element based on the value of its id attribute. In order for the element to be selected, its ID attribute must exactly match the value given in the selector. The # symbol and the id of the HTML element name are used to select the desired element.
+
+ID’s are unique:
+	
+- Each element can have only one ID
+- Each page can have only one element with that ID	
+	
+```HTML
+<p id="text-content">Content</p>	
+```
+	
+
 ---
 
 
@@ -190,6 +222,7 @@ inherit;
  
 - [Lists Bring Order To Web Pages](https://html.com/lists)
 - [CSS | list-style-type Property](https://www.geeksforgeeks.org/css-list-style-type-property/)
+- [The Difference Between ID and Class](https://css-tricks.com/the-difference-between-id-and-class/)
 
 
 
