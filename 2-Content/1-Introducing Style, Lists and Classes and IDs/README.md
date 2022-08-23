@@ -15,6 +15,7 @@ We are going to cover:
 - Unordered Lists
 - Ordered Lists
 - Class and ID selectors in CSS
+- Exercises
 
 
 
