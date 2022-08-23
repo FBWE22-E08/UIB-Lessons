@@ -171,6 +171,21 @@ HTML comments don't get displayed in the browser. This means that any comments y
 
 Go a to folder where you have the html file and open it with the browser OR you can use live server VS Code extension.
 
+
+---
+
+
+## Assignments:
+
+**Assignment:** [UIB-boilerplate-HTML_doc](https://classroom.github.com/a/Djs-Bn5f)
+**Solution:** []()
+
+**Assignment:** [UIB-boilerplate-head](https://classroom.github.com/a/k6b3Sdmb)
+**Solution:** []()
+
+**Assignment:** [UIB-boilerplate-styletag](https://classroom.github.com/a/WehEHhEI)
+**Solution:** []()
+
 ---
 
 ### Resources:
