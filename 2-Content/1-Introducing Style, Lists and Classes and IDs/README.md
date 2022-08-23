@@ -8,7 +8,8 @@ We are going to cover:
 - Adding Styles to HTML Elements(introduction)
 - Inline Styles
 - Embedded Style Sheets
-- External style sheet 
+- External style sheet
+- Anatomy of a declaration (selector, declaration, property, value)
 
 
 
@@ -78,6 +79,7 @@ CSS file (style.css)
   
 ```
 
+## Anatomy of a declaration (selector, declaration, property, value)
 ---
 
 
