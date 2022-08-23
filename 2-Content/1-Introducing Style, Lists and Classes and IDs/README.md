@@ -80,6 +80,21 @@ CSS file (style.css)
 ```
 
 ## Anatomy of a declaration (selector, declaration, property, value)
+	
+A CSS stylesheet consists of a set of rules that are interpreted by the web browser and then applied to the corresponding elements such as paragraphs, headings, etc. in the document.
+	
+
+A CSS rule have two main parts, a selector and one or more declarations:
+
+
+![enter image description here](https://www.tutorialrepublic.com/lib/images/css-selector.png)
+	
+The selector specifies which element or elements in the HTML page the CSS rule applies to.
+
+Whereas, the declarations within the block determines how the elements are formatted on a webpage. Each declaration consists of a property and a value separated by a colon (:) and ending with a semicolon (;), and the declaration groups are surrounded by curly braces {}.
+	
+The property is the style attribute you want to change; they could be font, color, background, etc. Each property has a value, for example color property can have value either blue or #0000FF etc.
+
 ---
 
 
