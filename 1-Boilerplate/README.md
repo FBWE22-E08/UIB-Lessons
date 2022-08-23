@@ -169,7 +169,7 @@ HTML comments don't get displayed in the browser. This means that any comments y
 
 ## Running our file locally
 
-Go to folder where you have html file and open it with the browser OR you can use live server VS Code extension.
+Go a to folder where you have the html file and open it with the browser OR you can use live server VS Code extension.
 
 ---
 
