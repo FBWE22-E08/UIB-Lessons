@@ -18,6 +18,7 @@ We are going to cover:
 - Close First What You Opened Last
 - The HTML Comment Tag
 - Running our file locally
+- Exercises
 
 
 ## History of HTML
