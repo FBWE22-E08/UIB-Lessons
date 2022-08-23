@@ -11,7 +11,7 @@ user interface is the point of human-computer interaction and communication on a
 ### UIB Sub Modules:
 
 1.  [Boilerplate]() 1 Day (24/08/2022)
-2.  [Content]() 5 Days
+2.  [Content]() 5 Days (25/08/2022 - 01/09/2022)
 3.  [Box-Model]() 3 Days + _UIB Basic test/quiz ()
 4.  [UI / UX]() ( ) 4 Days
 5.  [Data]() 3 Days
