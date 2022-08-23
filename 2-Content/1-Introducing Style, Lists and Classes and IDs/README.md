@@ -51,7 +51,7 @@ Embedded style sheets are defined in the <head> section of an HTML document usin
 <head>
     <style>
         body { background-color: YellowGreen; }
-		    h1 { color: blue; }
+	h1 { color: blue; }
         p { color: red; }
     </style>
 </head>
