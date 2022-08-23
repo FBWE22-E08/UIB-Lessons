@@ -10,6 +10,9 @@ We are going to cover:
 - Embedded Style Sheets
 - External style sheet
 - Anatomy of a declaration (selector, declaration, property, value)
+- Writing Comments in CSS
+- Lists: Indentation and Family
+
 
 
 
@@ -95,6 +98,31 @@ Whereas, the declarations within the block determines how the elements are forma
 	
 The property is the style attribute you want to change; they could be font, color, background, etc. Each property has a value, for example color property can have value either blue or #0000FF etc.
 
+	
+## Writing Comments in CSS
+	
+Comments are usually added with the purpose of making the source code easier to understand. It may help other developer (or you in the future when you edit the source code) to understand what you were trying to do with the CSS. Comments are significant to programmers but ignored by browsers.
+
+A CSS comment begins with /*, and ends with */, as shown in the example below:
+	
+```CSS
+/* This is a CSS comment */
+h1 {
+    color: blue;
+    text-align: center;
+}
+/* This is a multi-line CSS comment 
+that spans across more than one line */
+p {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+	
+```
+
+## Lists: Indentation and Family
+	
+	
 ---
 
 
