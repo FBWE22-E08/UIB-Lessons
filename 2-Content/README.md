@@ -9,7 +9,7 @@ Web content is the text, visual or audio content that is made available online a
 
 **Agenda**
 
-1.  [Introducing Style, Lists and Classes and IDs](https://github.com/Ghassanooooo/UIB-Lessons/tree/main/2-Content/1-Introducing%20Style%2C%20Lists%20and%20Classes%20and%20IDs) 
+1.  [Introducing Style, Lists and Classes and IDs](https://github.com/FBWE22-E08/UIB-Lessons/tree/main/2-Content/1-Introducing%20Style%2C%20Lists%20and%20Classes%20and%20IDs) 
 2.  []() 
 
 ---
