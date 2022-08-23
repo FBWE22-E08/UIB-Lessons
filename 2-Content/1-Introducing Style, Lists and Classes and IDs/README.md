@@ -12,6 +12,9 @@ We are going to cover:
 - Anatomy of a declaration (selector, declaration, property, value)
 - Writing Comments in CSS
 - Lists: Indentation and Family
+- Unordered Lists
+- Ordered Lists
+- Creating a Countdown List
 
 
 
@@ -126,30 +129,67 @@ Lists are used all the time on the web. Articles, website navigation menus, and 
 
 There are three types of lists you can use, and this quick guide will show you how to use each.
 
-
-
-Read more: https://html.com/lists/#ixzz7clwLnsjW
+## Unordered Lists
 	
+An unordered list is a list in which the order of the list items does not matter. Unordered lists should be used when the order of the list items would not create confusion or change the meaning of the information on the list.
+
+The ul element opens and closes an unordered list. The items on the list are contained between list item, li, tags. A simple unordered list containing three items could be created with the following HTML.
+
+```HTML
+<ul>
+	<li>Item A</li>
+	<li>Item B</li>
+	<li>Item C</li>
+</ul>
+
+	
+```
+
+
+## Ordered Lists
+	
+Ordered lists are used for lists of items for which the order of the items does matter. The syntax for an ordered list is exactly the same as for an unordered list. However, to create an ordered list, the ol tag is used rather than the ul tag. By making this one change, we can convert the unordered list in our previous example into an ordered list.
+
+
+```HTML
+<ol>
+	<li>Step 1</li> 
+	<li>Step 2</li>
+	<li>Step 3</li>
+</ol>
+
+
+	
+```
+## list-style-type
+	
+The list-style-type property in CSS specifies the appearance of the list item marker (such as a disc, character, or custom counter style)
+	
+```CSS
+list-style-type: disc|circle|square|decimal|lower-roman|upper-roman|
+lower-greek|lower-latin|upper-latin|lower-alpha|upper-alpha|none|
+inherit;	
+```
+
 ---
 
 
 ## Assignments:
 
-**Assignment:** [SPA-router-dog-finder](https://classroom.github.com/a/9It-6VA2)
-**Solution:** [SPA-router-dog-finder]()
+**Assignment:** []()
+**Solution:** []()
 
-**Assignment:** [SPA-CreateBlog (homework)](https://classroom.github.com/a/bi7vW7Js)
-**Solution:** [SPA-CreateBlog (homework)]()
+**Assignment:** []()
+**Solution:** []()
 
 ---
 
 ### Resources:
 
-- [Presentation PDF](./Boilerplate.pdf)
+
  
-- [A history of HTML](https://www.w3.org/People/Raggett/book4/ch02.html)
-- [The metadata element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
-- [CSS first steps overview](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
-- [basic web pages](https://www.internetingishard.com/html-and-css/basic-web-pages/)
+- [Lists Bring Order To Web Pages](https://html.com/lists)
+- [CSS | list-style-type Property](https://www.geeksforgeeks.org/css-list-style-type-property/)
+
 
 
