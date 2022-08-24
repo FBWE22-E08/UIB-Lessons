@@ -178,13 +178,13 @@ Go a to folder where you have the html file and open it with the browser OR you 
 
 ## Assignments:
 
-**Assignment:** [UIB-boilerplate-HTML_doc](https://classroom.github.com/a/Djs-Bn5f)
+**Assignment 1:** [UIB-boilerplate-HTML_doc](https://classroom.github.com/a/Djs-Bn5f)
 **Solution:** []()
 
-**Assignment:** [UIB-boilerplate-head](https://classroom.github.com/a/k6b3Sdmb)
+**Assignment 2:** [UIB-boilerplate-head](https://classroom.github.com/a/k6b3Sdmb)
 **Solution:** []()
 
-**Assignment:** [UIB-boilerplate-styletag](https://classroom.github.com/a/WehEHhEI)
+**Assignment 3:** [UIB-boilerplate-styletag](https://classroom.github.com/a/WehEHhEI)
 **Solution:** []()
 
 ---
