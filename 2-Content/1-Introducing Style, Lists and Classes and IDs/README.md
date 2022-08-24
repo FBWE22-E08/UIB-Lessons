@@ -36,9 +36,7 @@ Style information can either be attached as a separate document or embedded in t
 Inline styles are used to apply the unique style rules to an element, by putting the CSS rules directly into the start tag. It can be attached to an element using the style attribute.
 
 ```HTML
-
-<h1 style="color:red; font-size:30px;">This is a heading</h1>
-<p style="color:green; font-size:18px;">This is a paragraph</p>
+   <h2 style="color: blue">Here is h2</h2>
 
 ```
 
@@ -50,9 +48,9 @@ Embedded style sheets are defined in the <head> section of an HTML document usin
   
 <head>
     <style>
-        body { background-color: YellowGreen; }
-	h1 { color: blue; }
-        p { color: red; }
+       h3 {
+        color: red;
+      }
     </style>
 </head>
   
@@ -113,14 +111,33 @@ A CSS comment begins with /*, and ends with */, as shown in the example below:
 ```CSS
 /* This is a CSS comment */
 h1 {
-    color: blue;
-    text-align: center;
+  color: green;
+}
+
+/* ANATOMY */
+/* selector {
+  property: value;
+} */
+
+/* Lists */
+
+/* CHANGING THE LIST STYLE */
+
+/* ul {
+  list-style: square; 
+  list-style: none; 
+} */
+
+/* NESTING AND LISTS */
+
+li {
+  list-style-type: disc;
 }
 /* This is a multi-line CSS comment 
 that spans across more than one line */
-p {
-    font-size: 18px;
-    text-transform: uppercase;
+/* DESCENDANT COMBINATOR */
+li li {
+  list-style-type: circle;
 }
 	
 ```
