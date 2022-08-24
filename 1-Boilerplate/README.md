@@ -198,4 +198,4 @@ Go a to folder where you have the html file and open it with the browser OR you 
 - [CSS first steps overview](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
 - [basic web pages](https://www.internetingishard.com/html-and-css/basic-web-pages/)
 
-
+- [Why does Prettier not format code in VS Code?](https://stackoverflow.com/questions/52586965/why-does-prettier-not-format-code-in-vs-code)
