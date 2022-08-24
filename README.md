@@ -8,7 +8,7 @@ user interface is the point of human-computer interaction and communication on a
 
 
 
-### UIB Sub Chapters:
+### User Interface Basics (UIB) Chapters:
 
 1.  [Boilerplate](https://github.com/FBWE22-E08/UIB-Lessons/tree/main/1-Boilerplate) 1 Day (24/08/2022)
 2.  [Content](https://github.com/FBWE22-E08/UIB-Lessons/tree/main/2-Content) 5 Days (25/08/2022 - 01/09/2022)
