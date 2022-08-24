@@ -23,4 +23,4 @@ user interface is the point of human-computer interaction and communication on a
 
 
 
-### Final portfolio project / presentations 3 Days
+### Final portfolio project / presentations 3 Days (25/10/2022 - 27/10/2022)
