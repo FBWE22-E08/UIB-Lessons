@@ -234,6 +234,7 @@ ID’s are unique:
 
 **Assignment 3:** [UIB-content-listmania](https://classroom.github.com/a/SPgGP7cb)
 **Solution:** []()
+	
 ---
 
 ### Resources:
