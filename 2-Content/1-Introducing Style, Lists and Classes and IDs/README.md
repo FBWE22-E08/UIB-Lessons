@@ -78,10 +78,9 @@ CSS file (style.css)
   
 ```CSS
   
- body {
-    color: blue;
-    font-size: 14px;
-} 
+h1 {
+  color: green;
+}
   
 ```
 
