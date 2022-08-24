@@ -226,12 +226,14 @@ ID’s are unique:
 
 ## Assignments:
 
-**Assignment:** []()
+**Assignment 1:** [UIB-content-text](https://classroom.github.com/a/bmKlNUBN)
 **Solution:** []()
 
-**Assignment:** []()
+**Assignment 2:** [UIB-content-basic_structure](https://classroom.github.com/a/3LmLp8Nl)
 **Solution:** []()
 
+**Assignment 3:** [UIB-content-listmania](https://classroom.github.com/a/SPgGP7cb)
+**Solution:** []()
 ---
 
 ### Resources:
