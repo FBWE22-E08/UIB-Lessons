@@ -1,28 +1,39 @@
+h4 {
+  color: green;
+}
+
+/* This is a CSS comment */
 h1 {
   color: green;
 }
 
 /* ANATOMY */
 /* selector {
-    property: value;
-  } */
+  property: value;
+} */
 
 /* Lists */
 
 /* CHANGING THE LIST STYLE */
 
-/* ul {
-    list-style: square; 
-    list-style: none; 
-  } */
+.list {
+  list-style: square;
+}
+
+.list-color {
+  color: blue;
+}
+
+.item-b {
+  color: red;
+}
+
+#item-b {
+  color: green;
+}
+
+/* #item-id {
+  font-size: 100px;
+}*/
 
 /* NESTING AND LISTS */
-
-li {
-  list-style-type: disc;
-}
-
-/* DESCENDANT COMBINATOR */
-li li {
-  list-style-type: circle;
-}
