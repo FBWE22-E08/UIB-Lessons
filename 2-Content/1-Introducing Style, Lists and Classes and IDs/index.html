@@ -2,95 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UIB - Content - Live Coding 01</title>
-
-    <!-- external CSS -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- internal CSS -->
+    <title>Document</title>
     <style>
       h3 {
-        color: red;
+        color: yellow;
+        font-size: 50px;
       }
     </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Anantomy of the element - opening tag - content - closing tag -->
-    <!-- The angle brackets inform the browser that this is an HTML tag -->
+    <h1>Title</h1>
 
-    <!-- H is for heading -->
-    <h1>I'm an h1 heading tag</h1>
-    <!-- Inline CSS -->
-    <h2 style="color: blue">Here is h2</h2>
-    <h3>And here is h3</h3>
+    <h2 style="color: blue; font-size: 40px">Here is h2</h2>
+    <h3 style="color: pink">And here is h3</h3>
     <h4>h4 here</h4>
-    <h5>h5 tag</h5>
-    <h6>And finally h6</h6>
+    <h5>h5 here</h5>
 
-    <!-- P is for paragraph -->
-    <p>
-      The p tag designates that the enclosed text belongs to a paragraph. We
-      will be using this a lot.
-    </p>
-    <p>
-      Every successive p tag begins on a new line. So this would be the second
-      paragraph.
-    </p>
-    <p>
-      A quick way to generate 'dummy text' for our page is using Lorem Ipsum
-    </p>
-    <p>
-      <!-- shortcut = Lorem*2 -->
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore eos non
-      dolorem fugiat explicabo consequatur vero earum veritatis assumenda
-      necessitatibus iste nam, culpa minima suscipit praesentium iure velit,
-      incidunt eaque.Ea quam corporis, amet distinctio nisi commodi sapiente
-      aperiam, facilis quisquam alias officiis at. Consequatur nobis dignissimos
-      aliquid, itaque officiis quia distinctio id obcaecati maxime possimus
-      dolor consectetur ipsum. Voluptates?
-    </p>
-
-    <!-- LISTS -->
-
-    <h2>Ordered and unordered lists</h2>
-    <p>Ordered lists are used when things need to happen in a specific order</p>
-    <!-- Emmet shortcut = ol>li*4 -->
-    <ol>
-      <li>wake up</li>
-      <li>make breakfast</li>
-      <li>get dressed</li>
-      <li>start coding</li>
-    </ol>
-    <hr />
-    <p>
-      Unordered lists are ideal when order is not important, for example a
-      grocery list
-    </p>
-    <ul>
+    <ul class="list-color">
       <li>mineral water</li>
       <li>pears</li>
       <li>toothpaste</li>
       <li>gummi bears</li>
       <li>pretzels</li>
     </ul>
-    <hr />
-    <p>Nesting and lists</p>
+
+    <ol>
+      <li>wake up</li>
+      <li>make breakfast</li>
+      <li>get dressed</li>
+      <li>start coding</li>
+    </ol>
+
+    <ol reversed>
+      <li>wake up</li>
+      <li>make breakfast</li>
+      <li>get dressed</li>
+      <li>start coding</li>
+    </ol>
+
+    <ul class="list list-color">
+      <li>Item A</li>
+      <li class="item-b" id="item-b">Item B</li>
+      <li>Item C</li>
+    </ul>
+
     <ul>
+      <li>Item A</li>
       <li>
-        <p>Item 1</p>
+        Item B
         <ul>
-          <li>Subitem A</li>
-          <li>Subitem B</li>
+          <li>Subitem B.1</li>
+          <li>Subitem B.2</li>
         </ul>
       </li>
-      <li>
-        <p>Item 2</p>
-        <ul>
-          <li>Subitem A</li>
-          <li>Subitem B</li>
-        </ul>
-      </li>
+      <li>Item C</li>
     </ul>
   </body>
 </html>
+
