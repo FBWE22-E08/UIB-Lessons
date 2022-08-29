@@ -12,7 +12,7 @@ Web content is the text, visual or audio content that is made available online a
 1.  [Introducing Style, Lists and Classes and IDs](https://github.com/FBWE22-E08/UIB-Lessons/tree/main/2-Content/1-Introducing%20Style%2C%20Lists%20and%20Classes%20and%20IDs) 
 2.  []() 
 3.  []() 
-4.  [Accessibility, Understanding the cascade, specificity and inheritance](https://github.com/FBWE22-E08/UIB-Lessons/tree/main/2-Content/5-accessibility%2C%20Understanding%20the%20cascade%2C%20specificity%20and%20inheritance) 
+4.  [Accessibility, Understanding the cascade, specificity and inheritance](https://github.com/FBWE22-E08/UIB-Lessons/tree/main/2-Content/4-accessibility%2C%20Understanding%20the%20cascade%2C%20specificity%20and%20inheritance) 
 
 ---
 
