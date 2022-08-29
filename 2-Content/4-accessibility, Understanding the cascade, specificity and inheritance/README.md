@@ -86,6 +86,9 @@ The audits offered by Lighthouse are grouped into five optimization categories: 
 
 CSS stands for Cascading Style Sheets, and that first word cascading is incredibly important to understand — the way that the cascade behaves is key to understanding CSS.
 
+![enter image description here](https://scontent.ftxl2-1.fna.fbcdn.net/v/t39.30808-6/273717865_130238746176572_4783919957995906888_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=VGjAY5C0XdEAX-Ye-tv&_nc_oc=AQmS70M66Km076aZmG2hD42ACb7oRhyoz7u7HgGV3rqpIcIBDfoJAg8B51Ng8Wi7O27C3aYCP_uR63SqYEVjqNWR&_nc_ht=scontent.ftxl2-1.fna&oh=00_AT-JESx5s0JN-IOB5tFBWCVHjNWz_7MtlIkU2su7gW8XPA&oe=631164B6)
+	
+
 At some point, you will be working on a project and you will find that the CSS you thought should be applied to an element is not working. Often, the problem is that you create two rules that apply different values of the same property to the same element. Cascade and the closely-related concept of specificity are mechanisms that control which rule applies when there is such a conflict. The rule that's styling your element may not be the one you expect, so you need to understand how these mechanisms work.
 
 Also significant here is the concept of inheritance, which means that some CSS properties by default inherit values set on the current element's parent element and some don't. This can also cause some behavior that you might not expect.
