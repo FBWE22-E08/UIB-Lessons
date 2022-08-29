@@ -14,10 +14,10 @@ We are going to cover:
 - Cascade
 - Specificity
 - Inheritance
-- Inline always wins
-- Non-inheriting properties
-- Using dev tools to inspect the cascade
 - Controlling inheritance
+- Non-inheriting properties
+- Inline always wins
+- Using dev tools to inspect the cascade
 - Exercises
 
 
@@ -162,6 +162,14 @@ span {
 }	
 	
 ```	
+
+## Controlling inheritance
+	
+## Non-inheriting properties
+	
+## Inline always wins
+
+## Using dev tools to inspect the cascade
 	
 ---
 
