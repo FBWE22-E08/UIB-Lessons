@@ -16,7 +16,6 @@ We are going to cover:
 - Inheritance
 - Controlling inheritance
 - Non-inheriting properties
-- Inline always wins
 - Using dev tools to inspect the cascade
 - Exercises
 
@@ -164,12 +163,95 @@ span {
 ```	
 
 ## Controlling inheritance
+
+Inheritance occurs in real life. Children inherit their parents’ features. Children also inherit their parents’ wealth and properties.
+
+Though not all CSS rules/properties are inherited, all font-* properties are inherited. This includes:
+
+- font-size
+- font-family
+- font-weight
+The color property is also inherited.
+
+Inheritance in CSS occurs when an inheritable property is not set on an element. It goes up in its parent chain to set the property value to its parent value.
+
+When you set inherit on a CSS property, the property takes the value from the element’s parent.
+
+This applies not only to inheritable properties, but to all CSS properties.
+	
+Let’s say we have the following:
+	
+```HTML
+	
+<div id="div1">
+  Parent Div
+  <div id="div1Child">Child Div 1</div>
+  <div id="div2Child">Child Div 2</div>
+</div>	
+	
+```
+	
+```CSS
+#div1 {
+    height: 100px;
+    color: red;
+  }
+
+  #div1Child {
+    height: inherit;
+  }	
+	
+```
+The div1 has a height set to 100px and a color set to red. The color will be inherited by the child elements. The height property is not inheritable, so the child elements won’t inherit it.
+
+div1Child, on the other hand, has its height property set to inherit. This will make it inherit the value of its height from its parent element, div1. So the height of the div1Child will be 100px.
+
+The inherit value enables inheritance on all CSS properties. With inherit, the specified element will take the value of the specified property from its parent element.
+	
 	
 ## Non-inheriting properties
 	
-## Inline always wins
+These are properties that are not inherited or computed from the element’s parent. Its value is explicitly set or by its initial value. Most CSS properties that affect the element node are noninherited properties
+
+The unset value works differently on inherited and noninherited CSS properties. When the unset value is set on an inherited property, it resets the property value to its inherited value. The unset value resets a noninherited property to its initial value.
+
+Below is an example of unset in an inherited property:
+	
+```HTML
+	
+ <div class="div">Hello</div>	
+	
+```
+	
+```CSS
+   html {
+      color: red;
+    }
+    div {
+      color: green;
+    }
+    .div {
+      margin-top: 8px;
+      padding: 50px;
+      background-color: orange;
+      color: unset;
+    }	
+	
+```	
+	
+	
+CSS properties such as height, width, border, margin, padding, etc. are not inherited. We can enable inheritance on noninheritable CSS properties by using the inherit value.
+
+**Conclusion**
+In this tutorial, we learned all about CSS inheritance and explored four main keywords in CSS that you can use to toggle inheritance: inherit, initial, unset, and revert.
+	
+
 
 ## Using dev tools to inspect the cascade
+	
+CSS cascade layers is a CSS feature that allows web developers to define their CSS styles in multiple layers and control the order in which they apply. Let's see how we can visualize and debug layers in DevTools
+	
+
 	
 ---
 
@@ -195,4 +277,6 @@ span {
 - [Google Lighthouse](https://www.searchmetrics.com/glossary/google-lighthouse)
 - [HTML <img> alt Attribute](https://www.w3schools.com/tags/att_img_alt.asp)
 
+- [unset](https://developer.mozilla.org/en-US/docs/Web/CSS/unset)
+- [CSS inheritance: inherit, initial, unset, and revert](https://blog.logrocket.com/css-inheritance-inherit-initial-unset-and-revert/)
 
