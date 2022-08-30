@@ -258,14 +258,13 @@ CSS cascade layers is a CSS feature that allows web developers to define their C
 
 ## Assignments:
 
-**Assignment 1:** []()
+**Assignment 1:** [UIB-content-build-a-blog](https://classroom.github.com/a/cCJS9nPZ)
 **Solution:** []()
 
-**Assignment 2:** []()
+**Assignment 2:** [UIB-content-HowAboutIDs](https://classroom.github.com/a/cLS8njiL)
 **Solution:** []()
 
-**Assignment 3:** []()
-**Solution:** []()
+
 	
 ---
 
