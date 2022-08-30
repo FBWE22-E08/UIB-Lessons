@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Units</title>
+    <style>
+      .red {
+        background-color: red;
+      }
+      /* Pixels and percentages */
+      .fifty-px {
+        width: 50px;
+      }
+
+      .fifty-percent {
+        width: 50%;
+      }
+
+      .wrapper {
+        width: 300px;
+      }
+
+      /* Viewport width */
+      .fifty-vw {
+        width: 50vw;
+      }
+
+      .wrapper-vw {
+        width: 200px;
+        border: 2px solid black;
+      }
+
+      /* EM */
+      .container-em {
+        font-size: 22px;
+      }
+
+      .h1-em {
+        font-size: 2em;
+      }
+
+      .p-em {
+        font-size: 1em;
+      }
+
+      /* REM */
+      .container-rem {
+        font-size: 22px;
+      }
+
+      .h1-rem {
+        font-size: 2rem;
+      }
+
+      .p-rem {
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Units</h1>
+    <!-- ! 1. Pixels vs Percentages -->
+    Pixels
+    <div class="red fifty-px">50px</div>
+    <div class="red fifty-percent">50%</div>
+    <br />
+
+    Wrapped Pixels
+    <div class="wrapper">
+      <div class="red fifty-px">50px</div>
+      <div class="red fifty-percent">50%</div>
+    </div>
+    <br />
+
+    <!--! 2. VW and VH -->
+    Viewport width
+    <div class="red fifty-px">50px</div>
+    <div class="red fifty-vw">50vw</div>
+    <br />
+
+    Wrapped Viewport width
+    <div class="wrapper-vw">
+      <div class="red fifty-px">50px</div>
+      <div class="red fifty-vw">50vw</div>
+    </div>
+    <br />
+
+    EM and REM
+    <div class="container-em">
+      <div style="font-size: 2em">
+        <h1 class="h1-em">EM Heading</h1>
+        <p class="p-em">EM Paragraph</p>
+      </div>
+    </div>
+
+    <div class="container-rem">
+      <div style="font-size: 2rem">
+        <h1 class="h1-rem">REM Heading</h1>
+        <p class="p-rem">REM Paragraph</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+h1 {
+    background-color: #f58ea0;
+    color: #dad8d8;
+}
+
+h2 {
+    color: #f112f1;
+    background-color: #dad8d8;
+}
+
+.main-topic {
+    background-color: hotpink;
+}
+
+.subtopic {
+    background-color: #ebf64d;
+}
+
+.subtopic:hover {
+    color: rgb(30, 215, 240);
+}
+
+ul {
+    list-style: none;
+    background-color: rgb(30, 215, 240);
+}
+
+ul:hover {
+    background-color: #ebf64d;
+}
+
+#drop:visited {
+    color: rgb(30, 215, 240);
+}
+
+.contact-list:hover {
+    background-color: #f58ea0;
+}
+
+.contact-list li {
+    list-style: circle; 
+}
+
+#back:visited {
+    color: #ec10bd;
+}
