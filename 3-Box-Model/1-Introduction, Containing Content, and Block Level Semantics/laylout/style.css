@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 50%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.article-section article {
+  width: 45%;
+}
+
+.aside-section div,
+aside {
+  width: 45%;
+  display: inline-block;
+}
+
+aside {
+  border-left: 2px solid hotpink;
+  border-bottom: 2px solid hotpink;
+  background-color: rgba(202, 199, 199, 0.911);
+  padding: 15px;
+}
+
+code {
+  background-color: rgba(246, 236, 48, 0.861);
+  color: white;
+  padding: 5px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 10px;
+}
+
+footer {
+  margin: 100px auto;
+  padding: 15px;
+  background-color: rgb(215, 212, 212);
+  text-align: center;
+}
