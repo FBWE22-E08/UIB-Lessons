@@ -12,14 +12,15 @@ user interface is the point of human-computer interaction and communication on a
 
 1.  [Boilerplate](https://github.com/FBWE22-E08/UIB-Lessons/tree/main/1-Boilerplate) 1 Day (24/08/2022)
 2.  [Content](https://github.com/FBWE22-E08/UIB-Lessons/tree/main/2-Content) 4 Days (25/08/2022 - 31/08/2022)
-3.  [Box-Model]() 3 Days + _UIB Basic test/quiz ()
-4.  [UI / UX]() ( ) 4 Days
-5.  [Data]() 3 Days
-6.  [Responsivity]() 1 Day
-7.  [Layout]() 7 Days
-8.  [Interactions]() 4 Days
-9.  [Framework]() 4 Days
-10. [Publishing]() 1 Day + _UIB Advanced test/quiz ()
+3.  [Box-Model]() 3 Days ( 01/09/2022 - 06/09/2022 )
+4.   _UIB Basic Exam & quiz (07/09/2022)
+5.  [UI / UX]() ( ) 4 Days
+6.  [Data]() 3 Days
+7.  [Responsivity]() 1 Day
+8.  [Layout]() 7 Days
+9.  [Interactions]() 4 Days
+10.  [Framework]() 4 Days
+11. [Publishing]() 1 Day + _UIB Advanced test/quiz ()
 
 
 
