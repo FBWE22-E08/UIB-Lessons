@@ -151,13 +151,13 @@ Elements such as `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, and `
 
 ## Assignments:
 
-**Assignment 1:** []()
+**Assignment 1:** [UIB-boxmodel-containing](https://classroom.github.com/a/QJb5czlF)
 **Solution:** []()
 
-**Assignment 2:** []()
+**Assignment 2:** [UIB-boxmodel-flow](https://classroom.github.com/a/faNQBovp)
 **Solution:** []()
 
-**Assignment 3:** []()
+**Assignment 3:** [UIB-boxmodel-semantics](https://classroom.github.com/a/5fDtdnl6)
 **Solution:** []()
 	
 ---
