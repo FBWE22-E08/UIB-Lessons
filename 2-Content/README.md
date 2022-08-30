@@ -1,4 +1,4 @@
-# Content 5 Days
+# Content 4 Days
 
 ![enter image description here](https://www.asioso.com/blogs/articles/Blogreihe%20Content-Marketing/content-marketing-symbols.png)
 
