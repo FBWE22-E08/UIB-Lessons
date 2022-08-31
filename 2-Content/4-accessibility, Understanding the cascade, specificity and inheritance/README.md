@@ -223,13 +223,13 @@ The unset value works differently on inherited and noninherited CSS properties. 
 Below is an example of unset in an inherited property:
 	
 ```HTML
-	
+<section>	
  <div class="div">Hello</div>	
-	
+<section>	
 ```
 	
 ```CSS
-   html {
+   section {
       color: red;
     }
     div {
