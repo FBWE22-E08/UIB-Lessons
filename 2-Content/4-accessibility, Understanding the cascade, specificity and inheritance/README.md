@@ -22,7 +22,7 @@ We are going to cover:
 
 
 ## What is Web Accessibility?
-[slide presentation](https://docs.google.com/presentation/d/1kKBO1QAbNu0J-uAuvu9c5dCZijVhjTcnt0DGdvrKUq8/edit#slide=id.g9d48cbabc8_0_38)
+[slide presentation](https://github.com/FBWE22-E08/UIB-Lessons/blob/main/2-Content/4-accessibility%2C%20Understanding%20the%20cascade%2C%20specificity%20and%20inheritance/What%20is%20web%20accessibility_.pdf)
  
 
 ## HTML <title> Tag
