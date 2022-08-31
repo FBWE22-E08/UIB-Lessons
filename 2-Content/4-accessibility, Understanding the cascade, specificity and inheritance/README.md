@@ -65,7 +65,7 @@ The alt attribute provides alternative information for an image if a user for so
 	
 ```HTML
  <a href="https://unsplash.com/">
-      <img src="images/neon-garage.jpg" alt="Parking garage" title="Parking garage (tooltip)"/>
+      <img src="https://static.dw.com/image/62850747_101.jpg" alt="House of the dragon" title="House of the dragon (tooltip)"/>
  </a>	
 	
 ```
