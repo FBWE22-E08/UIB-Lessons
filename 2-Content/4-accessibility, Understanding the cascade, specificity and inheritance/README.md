@@ -272,6 +272,7 @@ CSS properties such as height, width, border, margin, padding, etc. are not inhe
 - [Google Lighthouse](https://www.searchmetrics.com/glossary/google-lighthouse)
 - [HTML <img> alt Attribute](https://www.w3schools.com/tags/att_img_alt.asp)
 
+- [Demonstration of a Screen Reader](https://youtu.be/dEbl5jvLKGQ)
 - [unset](https://developer.mozilla.org/en-US/docs/Web/CSS/unset)
 - [CSS inheritance: inherit, initial, unset, and revert](https://blog.logrocket.com/css-inheritance-inherit-initial-unset-and-revert/)
 
