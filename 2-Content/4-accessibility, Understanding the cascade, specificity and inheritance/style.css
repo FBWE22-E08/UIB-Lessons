@@ -24,3 +24,24 @@ main {
 span {
   color: black;
 }
+
+#div1Child,
+#div2Child,
+#div1 {
+  border: 1px solid green;
+  padding: 5px;
+}
+
+#div1Child,
+#div2Child {
+  border: 1px solid rgb(255, 0, 204);
+}
+
+#div1 {
+  height: 200px;
+  color: red;
+}
+
+#div1Child {
+  height: inherit;
+}
