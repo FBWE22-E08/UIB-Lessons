@@ -55,7 +55,7 @@ So, try to make the title as meaningful as possible!
 
 
 	
-## HTML <img> alt Attribute
+## HTML `<img>` alt Attribute
 
 The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.
 
