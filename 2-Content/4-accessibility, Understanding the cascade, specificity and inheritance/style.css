@@ -47,7 +47,9 @@ span {
 section {
   color: red;
 }
-
+.div {
+  color: green;
+}
 .div {
   color: unset;
 }
