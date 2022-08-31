@@ -241,8 +241,7 @@ Below is an example of unset in an inherited property:
 	
 CSS properties such as height, width, border, margin, padding, etc. are not inherited. We can enable inheritance on noninheritable CSS properties by using the inherit value.
 
-**Conclusion**
-In this tutorial, we learned all about CSS inheritance and explored four main keywords in CSS that you can use to toggle inheritance: inherit, initial, unset, and revert.
+
 	
 
 
