@@ -16,7 +16,6 @@ We are going to cover:
 - Inheritance
 - Controlling inheritance
 - Non-inheriting properties
-- Using dev tools to inspect the cascade
 - Exercises
 
 
@@ -247,9 +246,6 @@ In this tutorial, we learned all about CSS inheritance and explored four main ke
 	
 
 
-## Using dev tools to inspect the cascade
-	
-CSS cascade layers is a CSS feature that allows web developers to define their CSS styles in multiple layers and control the order in which they apply. Let's see how we can visualize and debug layers in DevTools
 	
 
 	
