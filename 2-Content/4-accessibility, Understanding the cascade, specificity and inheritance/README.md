@@ -191,13 +191,19 @@ Let’s say we have the following:
 ```
 	
 ```CSS
+	
+ #div1Child,  #div2Child, #div1{
+	  border:1px solid;
+	}
+	
 #div1 {
-    height: 100px;
+    width: 200px;
     color: red;
+  
   }
 
   #div1Child {
-    height: inherit;
+    width: inherit;
   }	
 	
 ```
