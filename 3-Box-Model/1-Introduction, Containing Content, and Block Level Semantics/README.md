@@ -7,7 +7,7 @@
 We are going to cover:
 
 - Introduction - Everything is a Box
-- The default box: the `<main>` tag
+- The `<main>` tag
 - How to Center an elements with CSS Margin Auto 
 - Full height content
 - Control the flow the `overflow` property
@@ -38,7 +38,7 @@ p {
 
 
 	
-## The default box: the `<main>` tag
+## The `<main>` tag
 
 The `<main>` HTML element represents the dominant content of the `<body>` of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.
 
