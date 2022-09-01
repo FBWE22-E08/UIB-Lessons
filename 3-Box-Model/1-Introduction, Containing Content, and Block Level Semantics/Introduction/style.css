@@ -1,0 +1,25 @@
+body {
+  height: 400px;
+}
+
+.text {
+  width: 100px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.container {
+  width: 350px;
+  border: 1px solid red;
+  margin: auto;
+  height: 50vh;
+}
+
+.overflow {
+  height: 100px;
+  border: 1px solid;
+  overflow: auto;
+  width: 200px;
+  /*white-space: nowrap;*/
+  margin-top: 10px;
+}
