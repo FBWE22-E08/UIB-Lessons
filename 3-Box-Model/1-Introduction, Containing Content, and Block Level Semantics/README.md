@@ -90,7 +90,7 @@ Viewport Height (vh). This unit is based on the height of the viewport. A value 
   width: 350px;
   border: 1px solid;
   margin: auto;
-  height:vh
+  height:100vh
 }
 ```
 
