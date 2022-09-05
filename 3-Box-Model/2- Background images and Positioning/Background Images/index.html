@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Images</title>
+
+    <style>
+      body {
+        background-image: url(https://th.bing.com/th/id/R.897bc40eebf60fbaf3efa0370e470596?rik=0J9d5M3%2by3UghQ&riu=http%3a%2f%2fcomic-news.com%2fwp-content%2fuploads%2f2017%2f04%2f20-2.jpg&ehk=3y6m%2ffoaQVwQoNUBi8Wq8kIEB0c6nVReJx0QDKZIRvg%3d&risl=&pid=ImgRaw&r=0);
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-color: antiquewhite;
+      }
+
+      .gradient {
+        margin-top: 200px;
+        height: 200px;
+        width: 200px;
+        /* background-image: linear-gradient(red, yellow, green); */
+        /* background-image: repeating-linear-gradient(
+          red,
+          yellow 76px,
+          blue 127px,
+          green 200px
+        ); */
+        /* background-image: radial-gradient(red, yellow, green); */
+        background-image: repeating-radial-gradient(red, yellow 10%, green 30%);
+      }
+    </style>
+  </head>
+  <body>
+    Hello
+
+    <div class="gradient">Gradient</div>
+  </body>
+</html>

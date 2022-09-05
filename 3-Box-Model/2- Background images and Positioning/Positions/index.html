@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning</title>
+    <style>
+      body {
+        height: 2000px;
+      }
+      .box {
+        height: 200px;
+        width: 200px;
+        border: 2px solid red;
+      }
+
+      .relative {
+        position: relative;
+        left: 20px;
+        top: 20px;
+        background-color: blue;
+        /* Used to display the element on top of another element */
+        z-index: 1;
+      }
+
+      .fixed {
+        position: fixed;
+        right: 20px;
+        top: 20px;
+      }
+
+      .sticky {
+        position: sticky;
+        left: 400px;
+        top: 200px;
+      }
+
+      /* In relationship to it's parent element with position relative */
+      .absolute {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background-color: yellow;
+        border: 2px solid green;
+      }
+
+      .left {
+        position: absolute;
+        left: 4px;
+        top: 50%;
+      }
+      .right {
+        position: absolute;
+        right: 4px;
+        top: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box relative">
+      New Relative
+      <div class="left"><-</div>
+      <div class="right">-></div>
+    </div>
+    <div class="box relative">Relative</div>
+    <div class="box fixed">Fixed</div>
+    <div class="box sticky">Sticky</div>
+    <div class="absolute">Absolute</div>
+  </body>
+</html>
