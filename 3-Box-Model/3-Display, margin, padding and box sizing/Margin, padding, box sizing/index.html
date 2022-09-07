@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin, padding, box sizing</title>
+
+    <style>
+      /* CSS soft reset 
+   
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      */
+
+      .border-box {
+        height: 200px;
+        width: 200px;
+        border: 3px solid khaki;
+        padding: 80px;
+        box-sizing: border-box;
+        /* Center horizontally  */
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      #content-box {
+        height: 100px;
+        width: 100px;
+        border: 3px solid khaki;
+        padding: 80px;
+        /* Center horizontally and vertically */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      /* .inline-block {
+        display: inline-block;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="border-box">Border box</div>
+    <div id="content-box">Context box</div>
+
+    <!-- <div style="border: 5px solid red; position: relative">
+      <div
+        class="inline-block"
+        style="
+          height: 100px;
+          width: 200px;
+          border: 2px solid rebeccapurple;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          box-sizing: border-box;
+        "
+      >
+        hello
+      </div>
+      <div
+        class="inline-block"
+        style="
+          height: 200px;
+          width: 300px;
+          border: 2px solid rebeccapurple;
+          margin-left: 200px;
+        "
+      >
+        I am much bigger than the other one
+      </div>
+    </div> -->
+  </body>
+</html>

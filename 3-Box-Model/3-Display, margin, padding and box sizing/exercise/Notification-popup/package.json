@@ -1,0 +1,19 @@
+{
+  "name": "UIB-box-model-notification-popup",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "dependencies": {
+    "jest": "^28.1.0",
+    "puppeteer": "^14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB-box-model-notification-popup",
+    "id": 317874010
+  }
+}

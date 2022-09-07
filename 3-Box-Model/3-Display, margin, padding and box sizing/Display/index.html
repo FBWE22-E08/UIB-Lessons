@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display</title>
+
+    <style>
+      .box {
+        border: 2px dashed green;
+      }
+
+      .inline {
+        display: inline;
+        /* We can use margin and padding */
+        padding: 10px;
+        margin: 20px;
+        /* We cannot change height and width for inline elements */
+        height: 200px;
+        width: 200px;
+      }
+
+      .inline-block {
+        display: inline-block;
+        height: 150px;
+        width: 150px;
+      }
+
+      .block {
+        display: block;
+        height: 250px;
+      }
+
+      .span {
+        height: 200px;
+        width: 200px;
+        border: 2px dotted yellowgreen;
+      }
+
+      .green {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is the h1 - block level element</h1>
+    <div class="box inline">Inline element</div>
+    <div class="box inline-block">Inline block element</div>
+    <div class="box block">Block</div>
+    <span class="span">Hello span, I am an inline element</span>
+    <p>
+      This is the <strong class="green">text</strong> that I wrote. I am also a
+      block level element
+    </p>
+  </body>
+</html>

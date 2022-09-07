@@ -1,0 +1,52 @@
+header {
+    position: fixed;
+    top: 0;
+    left:0;
+    border: 2px solid salmon;
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
+
+#title {
+    margin-top: 60px; 
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Link pseudo selectors */
+/* hover, active, visited */
+
+a:hover {
+    color:navajowhite ;
+}
+
+a:visited {
+    color:red;
+}
+
+a:active {
+    color: black;
+ 
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border: 2px dashed darkgoldenrod;
+    border-radius: 50%;
+    /* Red green and blue */
+    /* background-color: rgb(); */
+    
+    /* Hexadecimal */
+    /* color: #fff; */
+    background-color: rgba(212, 123, 54, 0.2);
+    opacity: 0.2;
+    overflow: auto;
+    text-align: center;
+}
+
+
+

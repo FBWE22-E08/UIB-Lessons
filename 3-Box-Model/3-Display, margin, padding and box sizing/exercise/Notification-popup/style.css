@@ -1,0 +1,23 @@
+/* Your Css code here */
+.notification {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    background-color: red;
+    padding: 32px;
+}
+
+.close {
+    position: absolute;
+    top: -16px;
+    right: -20px;
+    border: 0;
+    background: none; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+img {
+    height: 32px;
+    width: 32px;
+   }
