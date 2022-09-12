@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decoration</title>
+
+    <style>
+      h1 {
+        font-weight: 1000;
+        font-style: italic;
+        text-decoration: underline dashed red;
+      }
+
+      h2 {
+        text-transform: lowercase;
+      }
+
+      /* 1. offset on x axis */
+      /* 2. offset on y axis */
+      /* 3. blur radius - how blurry should it be */
+      /* 4. color */
+      h3 {
+        text-shadow: 1px 1px 2px blue;
+      }
+
+      /* Before pseudo selector */
+      a:hover::before {
+        content: "🔗 ";
+      }
+
+      li {
+        list-style: none;
+      }
+
+      li::before {
+        content: "🥶 ";
+      }
+
+      /* q::before {
+        content: "<<";
+      }
+
+      q::after {
+        content: ">>";
+      } */
+
+      div::before {
+        content: "I am the before";
+        background-color: blue;
+        margin-right: 16px;
+      }
+
+      div::after {
+        content: "I am the after";
+        background-color: blue;
+        margin-left: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Text decoration</h1>
+    <h2>TEXT TRANSFORM HELLO</h2>
+    <h3>Text shadow</h3>
+
+    <a>I am a link</a>
+    <a>I am a link two</a>
+
+    <ul>
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+    </ul>
+
+    <q> Hello I am yes </q>
+    <div>Hello I am a div</div>
+    <div>Second div</div>
+  </body>
+</html>
