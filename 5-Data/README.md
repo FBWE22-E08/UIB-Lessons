@@ -2,14 +2,14 @@
 
 We are going to cover:
 
-- []()
+- [HTML Tables And Organizing Data In Tables](https://blogs.crtil.com/html-tables-and-styles-userIneterface)
 - Exercises
 
 ---
 
 ## Assignments:
 
-**Assignment 1:** [)
+**Assignment 1:** []()
 **Solution:** []()
 
 **Assignment 2:** [)
@@ -22,5 +22,5 @@ We are going to cover:
 
 ### Resources:
 
-- []()
+- [HTML Tables And Organizing Data In Tables](https://blogs.crtil.com/html-tables-and-styles-userIneterface)
 
