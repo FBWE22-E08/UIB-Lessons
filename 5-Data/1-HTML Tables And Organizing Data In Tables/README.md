@@ -1,4 +1,4 @@
-# Data 3 Days (14/09/2022)
+# HTML Tables And Organizing Data In Tables (14/09/2022)
 
 We are going to cover:
 
