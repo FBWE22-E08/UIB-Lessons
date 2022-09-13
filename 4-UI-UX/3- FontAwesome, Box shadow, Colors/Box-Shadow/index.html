@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .box {
+        height: 200px;
+        width: 200px;
+
+        /* Between 2 and 6 values */
+        /* Offset X and offset Y */
+        box-shadow: 5px 5px;
+        /* Offset X, offset Y and blur radius */
+        box-shadow: 5px 5px 25px;
+        /* Offset X, offset Y, blur radius, spread */
+        /* It inherits the color */
+        color: blue;
+        box-shadow: 5px 5px 25px 10px;
+        /* Offset X, offset Y, blur radius, spread, color */
+        box-shadow: 5px 5px 25px 10px rgba(87, 98, 17, 0.8);
+        /* Inset, Offset X, offset Y, blur radius, spread, color */
+        box-shadow: inset 5px 5px 25px 10px rgba(87, 98, 17, 0.8);
+        /* Multiple box shadows */
+        box-shadow: 2px 2px 4px 6px blue, 6px 6px 19px 12px green,
+          16px 16px 15px 15px yellow;
+      }
+
+      .higher,
+      .lower,
+      .animated,
+      .layered {
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        margin: 60px;
+        float: left;
+      }
+
+      .higher {
+        box-shadow: 1px 4px 30px 0 red;
+      }
+
+      .lower {
+        box-shadow: 1px 4px 5px 0 red;
+      }
+
+      .animated {
+        box-shadow: 1px 4px 5px 0 red;
+        transition: transform 300ms, box-shadow 300ms;
+      }
+
+      .animated:hover {
+        transform: scale(1.1);
+        box-shadow: 1px 4px 35px 0 red;
+      }
+
+      .layered {
+        border-radius: 50%;
+        box-shadow: 0px 10px 0px -5px blue, 0px 20px 0px -10px purple,
+          0px 30px 0px -15px violet;
+      }
+    </style>
+    <title>Box Shadow</title>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="higher">Higher</div>
+    <div class="lower">Lower</div>
+    <div class="animated"></div>
+    <div class="layered"></div>
+  </body>
+</html>

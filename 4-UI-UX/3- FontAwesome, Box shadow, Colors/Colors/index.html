@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colors</title>
+  </head>
+
+  <style>
+    :root {
+      --primary: #641ade;
+      --secondary: #b1a8b9;
+      --danger: #ff0000;
+      margin: 0;
+    }
+
+    body {
+      background-color: var(--secondary);
+    }
+
+    header {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      padding: 8px;
+      background-color: var(--primary);
+    }
+
+    .card {
+      height: 400px;
+      width: 400px;
+      border: 1px solid black;
+      margin: 140px auto;
+      text-align: center;
+      box-shadow: 2px 2px 2px 2px var(--primary);
+      position: relative;
+    }
+
+    .delete {
+      text-transform: uppercase;
+      background-color: var(--danger);
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-weight: 800;
+    }
+  </style>
+  <body>
+    <header><h2>Header</h2></header>
+    <div class="card">
+      <h2>My title</h2>
+      <button class="delete">delete</button>
+    </div>
+  </body>
+</html>
