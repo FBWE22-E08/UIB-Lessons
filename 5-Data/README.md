@@ -1,26 +1,7 @@
-# Data 3 Days (14/09/2022)
+# Data 3 Days
 
-We are going to cover:
+**Sections**
 
-- [HTML Tables And Organizing Data In Tables](https://blogs.crtil.com/html-tables-and-styles-userIneterface)
-- Exercises
-
----
-
-## Assignments:
-
-**Assignment 1:** []()
-**Solution:** []()
-
-**Assignment 2:** [)
-**Solution:** []()
-
-**Assignment 3:** []()
-**Solution:** []()
-
----
-
-### Resources:
-
-- [HTML Tables And Organizing Data In Tables](https://blogs.crtil.com/html-tables-and-styles-userIneterface)
-
+1.  [HTML Tables And Organizing Data In Tables]()
+2.  [The HTML Form Elements And Data]()
+3.  []()
