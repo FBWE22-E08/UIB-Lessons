@@ -9,13 +9,13 @@ We are going to cover:
 
 ## Assignments:
 
-**Assignment 1:** []()
+**Assignment 1:** [UIB-data-table_companies](https://classroom.github.com/a/WvQ93M4G)
 **Solution:** []()
 
-**Assignment 2:** []()
+**Assignment 2:** [UIB-data-table_contact](https://classroom.github.com/a/fyRmQZhQ)
 **Solution:** []()
 
-**Assignment 3:** []()
+**Assignment 3:** [UIB-data-stylingtables](https://classroom.github.com/a/kl3m8-wH)
 **Solution:** []()
 
 ---
