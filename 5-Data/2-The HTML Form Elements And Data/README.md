@@ -1,8 +1,8 @@
-# Data 3 Days (14/09/2022)
+# The HTML Form Elements And Data (15/09/2022)
 
 We are going to cover:
 
-- [HTML Tables And Organizing Data In Tables](https://blogs.crtil.com/html-tables-and-styles-userIneterface)
+- [The HTML Form Elements And Data](https://blogs.crtil.com/html-forms-and-data-userIneterface)
 - Exercises
 
 ---
@@ -22,5 +22,5 @@ We are going to cover:
 
 ### Resources:
 
-- [HTML Tables And Organizing Data In Tables](https://blogs.crtil.com/html-tables-and-styles-userIneterface)
+- [The HTML Form Elements And Data](https://blogs.crtil.com/html-forms-and-data-userIneterface)
 
