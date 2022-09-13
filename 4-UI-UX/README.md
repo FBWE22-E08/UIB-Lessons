@@ -1,4 +1,4 @@
-# UI / UX 4 Days
+# UI / UX 3 Days
 
 **Sections**
 
