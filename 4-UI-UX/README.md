@@ -3,6 +3,6 @@
 **Sections**
 
 1.  [User Interface and css fonts]()
-2.  []()
+2.  [Font size, direction, alignment, decoration]()
 3.  []()
-4.  []()
+
