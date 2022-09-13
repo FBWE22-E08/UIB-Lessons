@@ -12,7 +12,7 @@ We are going to cover:
 **Assignment 1:** []()
 **Solution:** []()
 
-**Assignment 2:** [)
+**Assignment 2:** []()
 **Solution:** []()
 
 **Assignment 3:** []()
