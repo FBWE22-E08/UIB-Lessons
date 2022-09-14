@@ -15,7 +15,7 @@ We are going to cover:
 **Assignment 2:** [UIB-data-table_contact](https://classroom.github.com/a/fyRmQZhQ)
 **Solution:** []()
 
-**Assignment 3:** [UIB-data-stylingtables](https://classroom.github.com/a/kl3m8-wH)
+**Assignment 3 ( Optional ):** [UIB-data-stylingtables](https://classroom.github.com/a/kl3m8-wH)
 **Solution:** []()
 
 ---
