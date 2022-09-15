@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input types</title>
+
+    <style>
+      form {
+        border: 1px solid;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label>Enter first name</label><br />
+      <input type="text" name="firstname" placeholder="Ghassan" /><br />
+      <label>Enter last name</label><br />
+      <input type="text" name="lastname" /><br />
+      <p><strong>Note:</strong>The default maximum cahracter lenght is 20.</p>
+    </form>
+
+    <form>
+      <label>Enter User name</label><br />
+      <input type="text" name="firstname" /><br />
+      <label>Enter Password</label><br />
+      <input type="password" name="password" /><br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <form>
+      <label>Enter User name</label><br />
+      <input type="text" name="firstname" /><br />
+      <label>Enter Password</label><br />
+      <input type="password" name="password" /><br />
+      <br />
+      <button type="submit">Submit</button>
+      <input type="reset" value="Reset" />
+    </form>
+
+    <form>
+      <p>Kindly Select your favorite color</p>
+      <input type="radio" name="color" value="red" /> Red <br />
+      <input type="radio" name="color" value="blue" /> blue <br />
+      <button type="submit">Submit</button>
+    </form>
+
+    <form>
+      <label>Enter your Name:</label>
+      <input type="text" name="name" />
+      <p>Kindly Select your favourite sports</p>
+      <input type="checkbox" name="sport1" value="cricket" />Cricket<br />
+      <input type="checkbox" name="sport2" value="tennis" />Tennis<br />
+      <input type="submit" value="submit" />
+    </form>
+
+    <form>
+      <input
+        type="button"
+        value="Clcik me "
+        onclick="alert('you are learning HTML')"
+      />
+    </form>
+
+    <form>
+      <label>Select file to upload:</label>
+      <input type="file" />
+      <br />
+      <br />
+
+      <input type="submit" value="submit" />
+    </form>
+
+    <form>
+      <h2>Input "image" type.</h2>
+      <p>We can create an image as submit button</p>
+      <label>User id:</label><br />
+      <input type="text" name="name" /><br /><br />
+      <input
+        type="image"
+        alt="Submit"
+        src="https://images.unsplash.com/photo-1524508762098-fd966ffb6ef9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        width="100px"
+      />
+    </form>
+
+    <form>
+      Pick your Favorite color: <br /><br />
+      <input type="color" name="upclick" value="#a52a2a" /> Upclick<br /><br />
+      <input type="color" name="downclick" value="#f5f5dc" /> Downclick
+    </form>
+
+    <form>
+      Select Start and End Date: <br /><br />
+      <input type="date" /> Start date:<br /><br />
+      <input type="date" /> End date:<br /><br />
+      <input type="submit" />
+    </form>
+
+    <form>
+      <label><b>Enter your Email-address*</b></label>
+      <input placeholder="test@gamil.com" type="email" name="email" required />
+      <input type="submit" />
+    </form>
+
+    <form>
+      <label>
+        <b>Enter your Telephone Number(in format of xxx-xxx-xxxx):</b>
+      </label>
+      <input
+        type="tel"
+        name="telephone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        required
+      />
+      <input type="submit" /><br /><br />
+    </form>
+
+    <form action="/action_page.php">
+      <label for="cars">Choose a car:</label><br />
+
+      <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select>
+    </form>
+  </body>
+</html>

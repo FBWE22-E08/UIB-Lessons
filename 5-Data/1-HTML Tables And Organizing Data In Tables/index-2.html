@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+
+    <style>
+      .separate {
+        border: 2px solid blue;
+        border-collapse: separate;
+        margin-bottom: 20px;
+      }
+
+      .separate th,
+      .separate td {
+        border: 2px solid red;
+      }
+
+      .collapse {
+        /* border: 2px solid green;*/
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        background-color: aquamarine;
+      }
+
+      .collapse th,
+      .collapse td {
+        border: 2px solid green;
+      }
+
+      .collapse tr:last-child td {
+        border: 0;
+      }
+
+      .spacing {
+        border: 2px solid rgb(128, 0, 36);
+        /* border-collapse: collapse;*/
+        margin-bottom: 20px;
+        border-spacing: 5px;
+      }
+
+      .spacing th,
+      .spacing td {
+        border: 2px solid pink;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="separate">
+      <caption>
+        separate
+      </caption>
+
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Opponent</th>
+        <th scope="col">Location</th>
+        <th scope="col">Time</th>
+      </tr>
+      <tr>
+        <td>Monday, March 5th</td>
+        <td>Indiana Pacers</td>
+        <td>United Center, CPH, IL</td>
+        <td rowspan="4">7:00 PM</td>
+      </tr>
+      <tr>
+        <td>Wednesday, March 7th</td>
+        <td colspan="2">Milwaukee Bucks, Bradley Center, Milwaukee, WI</td>
+      </tr>
+      <tr>
+        <td>Thursday, March 8th</td>
+        <td>Orlando Magic</td>
+        <td rowspan="2">United Center, CPH, IL</td>
+      </tr>
+      <tr>
+        <td>Saturday, March 10th</td>
+        <td colspan="">Utah Jazz</td>
+      </tr>
+    </table>
+
+    <table class="collapse">
+      <caption>
+        collapse
+      </caption>
+
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Opponent</th>
+        <th scope="col">Location</th>
+        <th scope="col">Time</th>
+      </tr>
+      <tr>
+        <td>Monday, March 5th</td>
+        <td>Indiana Pacers</td>
+        <td>United Center, CPH, IL</td>
+        <td rowspan="4">7:00 PM</td>
+      </tr>
+      <tr>
+        <td>Wednesday, March 7th</td>
+        <td colspan="2">Milwaukee Bucks, Bradley Center, Milwaukee, WI</td>
+      </tr>
+      <tr>
+        <td>Thursday, March 8th</td>
+        <td>Orlando Magic</td>
+        <td rowspan="2">United Center, CPH, IL</td>
+      </tr>
+      <tr>
+        <td>Saturday, March 10th</td>
+        <td colspan="">Utah Jazz</td>
+      </tr>
+    </table>
+
+    <table class="spacing">
+      <caption>
+        spacing
+      </caption>
+
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Opponent</th>
+        <th scope="col">Location</th>
+        <th scope="col">Time</th>
+      </tr>
+      <tr>
+        <td>Monday, March 5th</td>
+        <td>Indiana Pacers</td>
+        <td>United Center, CPH, IL</td>
+        <td rowspan="4">7:00 PM</td>
+      </tr>
+      <tr>
+        <td>Wednesday, March 7th</td>
+        <td colspan="2">Milwaukee Bucks, Bradley Center, Milwaukee, WI</td>
+      </tr>
+      <tr>
+        <td>Thursday, March 8th</td>
+        <td>Orlando Magic</td>
+        <td rowspan="2">
+          <img
+            width="20"
+            height="20"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+            alt="React js"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Saturday, March 10th</td>
+        <td colspan="">Utah Jazz</td>
+      </tr>
+    </table>
+  </body>
+</html>

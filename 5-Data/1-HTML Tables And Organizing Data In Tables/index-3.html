@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+
+    <style>
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      th,
+      td {
+        border: 1px solid #c6c9cc;
+        vertical-align: top;
+      }
+      th {
+        font-size: 11px;
+        text-transform: uppercase;
+      }
+      th.qty,
+      th.price {
+        text-align: center;
+      }
+      tbody td.item {
+        color: #404853;
+        font-weight: bold;
+      }
+      tbody td.stock,
+      tbody td.qty,
+      tbody td.price {
+        vertical-align: middle;
+      }
+      tbody td.stock,
+      tbody td.qty {
+        text-align: center;
+      }
+      tbody td.price {
+        text-align: right;
+      }
+      tfoot td {
+        text-align: right;
+      }
+      tfoot tr.sub td,
+      tfoot tr.tax td {
+        color: #8c8c8c;
+        font-size: 12px;
+      }
+      tfoot tr.total td {
+        color: #404853;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .in {
+        color: #00b515;
+      }
+      .out {
+        color: #b50000;
+      }
+      span {
+        color: #8c8c8c;
+        display: block;
+        font-size: 12px;
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Items</th>
+          <th class="qty">Qty</th>
+          <th class="price">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="item">
+            Envisioning Information <span>By Edward R. Tufte – Hardcover</span>
+          </td>
+          <td class="stock in">In Stock</td>
+          <td class="qty">1</td>
+          <td class="price">$33.32</td>
+        </tr>
+        <tr>
+          <td class="item">
+            Outliers <span>By Malcolm Gladwell – Hardcover</span>
+          </td>
+          <td class="stock in">In Stock</td>
+          <td class="qty">2</td>
+          <td class="price">$33.58 <span>($16.79 × 2)</span></td>
+        </tr>
+        <tr>
+          <td class="item">
+            Don’t Make Me Think <span>By Steve Krug – Paperback</span>
+          </td>
+          <td class="stock out">Out of Stock</td>
+          <td class="qty">1</td>
+          <td class="price">$22.80</td>
+        </tr>
+        <tr>
+          <td class="item">
+            Steve Jobs <span>By Walter Isaacson – Hardcover</span>
+          </td>
+          <td class="stock in">In Stock</td>
+          <td class="qty">1</td>
+          <td class="price">$17.49</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr class="sub">
+          <td colspan="3">Subtotal</td>
+          <td>$107.19</td>
+        </tr>
+        <tr class="tax">
+          <td colspan="3">Tax</td>
+          <td>$10.71</td>
+        </tr>
+        <tr class="total">
+          <td colspan="3">Total</td>
+          <td>$117.90</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
