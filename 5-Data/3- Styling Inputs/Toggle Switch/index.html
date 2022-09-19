@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Switch</title>
+    <style>
+      /* Hiding the input */
+      input {
+        height: 0;
+        width: 0;
+        opacity: 0;
+      }
+
+      /* Creating the parent element with position relative */
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+
+      /* Creating the gray area */
+      .slider {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #ccc;
+        right: 0;
+        bottom: 0;
+        border-radius: 34px;
+        cursor: pointer;
+      }
+
+      /* Creating the white circle */
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        border-radius: 50%;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        transition: 1s;
+      }
+
+      /* Changing background color when checked */
+      input:checked + .slider {
+        background-color: blue;
+      }
+
+      /* Move the white circle when checked */
+      input:checked + .slider:before {
+        transform: translateX(26px);
+      }
+    </style>
+  </head>
+  <body>
+    <label class="switch">
+      <input type="checkbox" />
+      <span class="slider"></span>
+    </label>
+  </body>
+</html>

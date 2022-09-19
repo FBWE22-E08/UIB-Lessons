@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Styling</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Styling the input when it is focused */
+      input:focus {
+        outline: 5px solid green;
+      }
+
+      /* Styling the input when it is read only */
+      input:read-only {
+        background-color: blueviolet;
+      }
+
+      /* Styling the input when it is disabled */
+      input:disabled {
+        background-color: beige;
+      }
+
+      /* Targetting by an attribute */
+      label[for="name"] {
+        color: red;
+      }
+
+      /* Styling the placeholder */
+      input::placeholder {
+        color: green;
+      }
+
+      /* Styling the placeholder only when the input is focused */
+      input:focus::placeholder {
+        color: red;
+      }
+
+      label {
+        margin: 8px;
+      }
+      input {
+        margin: 8px;
+      }
+
+      button {
+        margin: 8px;
+      }
+
+      /* Centering the form */
+      /* form {
+        border: 2px solid black;
+        width: 30%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      } */
+    </style>
+  </head>
+  <body>
+    <form action="https://www.google.com" method="POST">
+      <label for="name">Name</label>
+      <br />
+      <!-- Autofocus the input -->
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Username"
+        required
+        autofocus
+      />
+      <br />
+      <!-- Disabled -->
+      <label for="pwd">Password</label>
+      <br />
+      <input id="pwd" type="password" name="password" required />
+      <br />
+      <!-- Read only -->
+      <label for="city">City</label>
+      <br />
+      <input id="city" type="text" readonly required />
+      <br />
+      <!-- Placeholder -->
+      <label for="country">Country - Optional</label>
+      <br />
+      <input type="text" id="country" disabled placeholder="Country" />
+      <!-- Submit button -->
+      <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
