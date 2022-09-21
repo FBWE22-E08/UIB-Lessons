@@ -17,8 +17,8 @@ user interface is the point of human-computer interaction and communication on a
 - UIB Basic Exam & quiz (07/09/2022)
 4.  [UI / UX]() 3 Days ( 08/09/2022 - 13/09/2022 ) 
 5.  [Data]() 3 Days  ( 14/09/2022 - 16/09/2022 ) 
-6.  [Responsivity]() 1 Day
-7.  [Layout]() 7 Days
+6.  [Responsivity]() 1 Day ( 21/09/2022 )
+7.  [Layout]() 7 Days ( 22/09/2022 - 05/10/2022 )
 8.  [Interactions]() 4 Days
 9.  [Framework]() 4 Days
 10. [Publishing]() 1 Day 
