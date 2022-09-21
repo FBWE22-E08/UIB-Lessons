@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .el-1,
+      .el-2,
+      .el-3 {
+        width: 300px;
+        height: 100px;
+        margin: 10px auto;
+        text-align: center;
+      }
+
+      .el-1 {
+        background-color: blue;
+      }
+      .el-2 {
+        background-color: red;
+      }
+      .el-3 {
+        background-color: green;
+      }
+
+      @media screen and (min-width: 600px) {
+        .el-1 {
+          background-color: pink;
+          font-size: 40px;
+        }
+        .el-2 {
+          background-color: skyblue;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .el-3 {
+          background-color: orchid;
+          font-size: 40px;
+        }
+        .el-2 {
+          font-size: 100px;
+        }
+      }
+
+      @media screen and (min-width: 800px) and (max-width: 1000px) {
+        .el-3 {
+          background-color: indigo;
+        }
+      }
+
+      .p-6 {
+        padding: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="el-1">Element 1</div>
+    <div class="el-2">Element 2</div>
+    <div class="el-3 p-6">Element 3</div>
+  </body>
+</html>

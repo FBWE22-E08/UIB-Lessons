@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h2>Show Different Images Depending on Browser Width</h2>
+    <p>
+      Resize the browser width and the image will change at 600px and 1500px.
+    </p>
+
+    <picture>
+      <source
+        srcset="
+          https://weedid.missouri.edu/images/images_optimized/530optimized.jpg
+        "
+        media="(max-width: 600px)"
+      />
+      <source
+        srcset="
+          https://img.freepik.com/premium-photo/helianthus-annuus-small-potted-sunflowers-dwarf-helianthus-small-flower-size_42327-686.jpg?w=2000
+        "
+        media="(max-width: 1500px)"
+      />
+      <source
+        srcset="
+          https://statics.rayagarden.com/20210118/Smallflower-Lupine11.jpg
+        "
+      />
+      <img
+        src="https://kinsta.com/de/wp-content/uploads/sites/5/2022/07/was-ist-react-js-1024x512.png"
+        alt="Flowers"
+        style="width: auto"
+      />
+    </picture>
+  </body>
+</html>
