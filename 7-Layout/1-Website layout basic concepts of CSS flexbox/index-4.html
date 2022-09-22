@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex-container {
+        display: flex;
+        height: 200px;
+        align-items: baseline;
+        background-color: DodgerBlue;
+        margin-bottom: 20px;
+      }
+
+      .flex-container > div,
+      .flex-container-1 > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+      .flex-container-1 {
+        display: flex;
+        height: 200px;
+        background-color: DodgerBlue;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div><h1>1</h1></div>
+      <div><h6>2</h6></div>
+      <div><h3>3</h3></div>
+      <div><small>4</small></div>
+    </div>
+
+    <div class="flex-container-1">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+  </body>
+</html>
