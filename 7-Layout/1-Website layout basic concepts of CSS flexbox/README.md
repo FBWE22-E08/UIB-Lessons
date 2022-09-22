@@ -1,4 +1,4 @@
-# HTML Tables And Organizing Data In Tables
+# Website layout basic concepts of CSS flexbox && Website planning checklist and layout plan
 
 We are going to cover:
 
@@ -10,14 +10,14 @@ We are going to cover:
 
 ## Assignments:
 
-**Assignment 1:** []()
-**Solution:** []()
+**Assignment 1:** [UIB-layout-planning](https://classroom.github.com/a/Ocyjby1n)
+**Solution:** [UIB-layout-planning]()
 
-**Assignment 2:** []()
-**Solution:** []()
+**Assignment 2:** [UIB-layout-flex](https://classroom.github.com/a/rf3Jn-wP)
+**Solution:** [UIB-layout-flex]()
 
-**Assignment 3 ( Optional ):** []()
-**Solution:** []()
+**Assignment 3:** [UIB-layout-warp-club](https://classroom.github.com/a/Q9EKUC4x)
+**Solution:** [UIB-layout-warp-club]()
 
 ---
 
