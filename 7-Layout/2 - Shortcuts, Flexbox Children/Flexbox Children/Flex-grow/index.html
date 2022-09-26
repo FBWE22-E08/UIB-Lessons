@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        display: flex;
+      }
+
+      .item {
+        border: 2px solid blueviolet;
+        padding: 8px;
+        /* This is the default */
+        flex-grow: 0;
+      }
+
+      .first {
+        /* If we give flex grow to all flex items, they will take up all the empty space */
+        flex-grow: 1;
+      }
+
+      /* If we give flex grow to one item, it will take up all the empty space */
+      .second:nth-child(3){
+        flex-grow: 1;
+      }
+
+      .three:nth-child(2){
+        flex-grow: 1;
+      }
+
+      .three:nth-child(3){
+        /* Two times bigger than the element with flex-grow 1 */
+        flex-grow: 4;
+      }
+      
+
+    </style>
+    <title>Flex-grow</title>
+  </head>
+  <body>
+    <h2>1. Same space with everyone having flex-grow as 1</h2>
+    <div class="container">
+      <div class="item first">1</div>
+      <div class="item first">2</div>
+      <div class="item first">3</div>
+      <div class="item first">4</div>
+      <div class="item first">5</div>
+    </div>
+
+    <h2>2. One element takes up all the empty space</h2>
+    <div class="container">
+      <div class="item second">1</div>
+      <div class="item second">2</div>
+      <div class="item second">3</div>
+      <div class="item second">4</div>
+      <div class="item second">5</div>
+    </div>  
+
+    <h2>3. Different flex grow values</h2>
+    <div class="container">
+        <div class="item three">1</div>
+        <div class="item three">2</div>
+        <div class="item three">3</div>
+        <div class="item three">4</div>
+        <div class="item three">5</div>
+      </div> 
+</html>

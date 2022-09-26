@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex basis</title>
+    <style>
+      .container {
+        display: flex;
+        border: 1px solid black;
+        height: 1200px;
+      }
+
+      .item {
+        border: 2px solid blueviolet;
+        padding: 8px;
+        /* Default value is auto */
+        /* If there is no flex basis, flex will look at elements width */
+        /* Flex basis considers the direction 
+        - in case of row, it will be width 
+        - in case of column, it will be height
+        */
+        /* Default value is auto */
+        flex-basis: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </section>
+  </body>
+</html>
