@@ -11,13 +11,13 @@ We are going to cover:
 ## Assignments:
 
 **Assignment 1:** [UIB-layout-grid-design-studio](https://classroom.github.com/a/TBi68zw1)
-**Solution:** []()
+
 
 **Assignment 2:** [UIB-layout-grid](https://classroom.github.com/a/QGoJZ34G)
-**Solution:** []()
+
 
 **Assignment 3:** [UIB-layout-grid-blogger](https://classroom.github.com/a/HLThcXPi)
-**Solution:** []()
+
 
 ---
 
