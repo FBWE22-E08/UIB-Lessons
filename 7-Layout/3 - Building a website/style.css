@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+    --black: #130f40;
+    --highlight: #fe217d;
+    --light-color: #666;
+    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #eee;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 3em;
+    background: #fff;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--black);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.7rem;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    border-bottom: 4px solid var(--highlight);
+}
+
+.icons i {
+    height: 4.5rem;
+    width: 4.5rem;
+    cursor: pointer;
+    text-align: center;
+    line-height: 4.5rem;
+    background-color: #eee;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    margin-left: 0.3rem;
+}
+
+.icons i:hover {
+    background: var(--highlight);
+}
+
+.home {
+    background: url(./images/sweetBg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 17rem 2rem 10rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .content h3  {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+
+.home .content h3 span {
+    color: var(--highlight);
+}
+
+.home .content p {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    color: var(--light-color);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--highlight);
+    text-decoration: none;
+    border: 0.2rem solid var(--black);
+    padding: 0.8rem 3rem;
+    text-transform: uppercase;
+    color: var(--black);
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+}
+.box-container .box {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    margin: 1rem;
+}
+
+.box-container .box img {
+    height: 15rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.box-container .box p {
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+@media screen and (min-width:768px) {
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .box-container .box {
+        flex: 1 1 30%;
+    }
+}
+
