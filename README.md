@@ -19,10 +19,10 @@ user interface is the point of human-computer interaction and communication on a
 5.  [Data]() 3 Days  ( 14/09/2022 - 16/09/2022 ) 
 6.  [Responsivity]() 1 Day ( 21/09/2022 )
 7.  [Layout]() 7 Days ( 22/09/2022 - 05/10/2022 )
-8.  [Interactions]() 4 Days
-9.  [Framework]() 4 Days
-10. [Publishing]() 1 Day 
-- UIB Advanced Exam & quiz ()
+8.  [Interactions]() 2 Days ( 06/10/2022 - 10/10/2022 )
+9.  [Framework]() 2 Days ( 11/10/2022 - 12/10/2022 )
+10. [Publishing]() 1 Day ( 13/10/2022 )
+- UIB Advanced Exam & quiz ( 17/10/2022 )
 
 
-### Final portfolio project / presentations 3 Days (25/10/2022 - 27/10/2022)
+### portfolio project / group project / presentations 7 Days 
