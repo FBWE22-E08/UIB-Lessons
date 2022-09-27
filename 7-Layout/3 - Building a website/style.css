@@ -42,6 +42,10 @@ header {
     color: var(--black);
 }
 
+nav {
+    display: none;
+}
+
 nav a {
     text-decoration: none;
     color: var(--black);
@@ -80,7 +84,7 @@ nav a:hover {
     justify-content: center;
 }
 
-.home .content h3  {
+.home .content h3 {
     color: var(--black);
     font-size: 3rem;
 }
@@ -108,10 +112,11 @@ nav a:hover {
     border-radius: 0.5rem;
     font-size: 1.7rem;
 }
+
 .box-container .box {
     padding: 3rem 2rem;
     text-align: center;
-    background-color: white;
+    background-color: #e2fcf5;
     box-shadow: var(--box-shadow);
     margin: 1rem;
 }
@@ -132,6 +137,23 @@ nav a:hover {
     padding: 1rem 0;
 }
 
+#menu-btn ul {
+    display: none;
+    list-style-type: none;
+    background-color: white;
+    text-align: left;
+    padding: 1rem;
+}
+
+#menu-btn ul li a {
+    text-decoration: none;
+}
+
+#menu-btn:hover ul {
+    display: block;
+    position: absolute;
+}
+
 @media screen and (min-width:768px) {
     .box-container {
         display: flex;
@@ -145,3 +167,12 @@ nav a:hover {
     }
 }
 
+@media screen and (min-width:992px) {
+    #menu-btn {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+}
