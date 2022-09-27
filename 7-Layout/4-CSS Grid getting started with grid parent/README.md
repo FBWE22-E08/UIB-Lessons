@@ -11,10 +11,10 @@ We are going to cover:
 ## Assignments:
 
 **Assignment 1:** [UIB-layout-grid-parent](https://classroom.github.com/a/iV-S52O9)
-**Solution:** []()
+
 
 **Assignment 2:** [UIB-layout-grid-and-flexbox-harmony](https://classroom.github.com/a/Xo-0bTbd)
-**Solution:** []()
+
 
 ---
 
