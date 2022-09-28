@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grid</title>
     <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
       main {
         display: grid;
         grid-template-columns: 1fr;
@@ -14,7 +20,7 @@
 
         background-color: #2196f3;
         padding: 10px;
-        width: 80%;
+        width: 100%;
         margin: auto;
       }
 
@@ -37,12 +43,14 @@
       @media screen and (min-width: 770px) {
         main {
           grid-template-columns: repeat(4, 1fr);
+          width: 80%;
         }
       }
 
       @media screen and (min-width: 1025px) {
         main {
           grid-template-columns: repeat(6, 1fr);
+          width: 80%;
         }
       }
     </style>
