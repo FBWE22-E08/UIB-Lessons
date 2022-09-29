@@ -3,6 +3,7 @@
 We are going to cover:
 
 - [Website layout basic concepts of CSS flexbox](https://blogs.crtil.com/css-layout-introduction-flexbox-userIneterface)
+- [Flexbox Froggy game](https://flexboxfroggy.com)
 - [Website planning checklist and layout plan](https://blogs.crtil.com/layout-introduction-ui-ux)
 - Exercises
 
