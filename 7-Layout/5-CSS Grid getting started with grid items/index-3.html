@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        border: 2px solid;
+        display: grid;
+
+        grid-template-columns:
+          [main-start] 1fr [content-start]
+          1fr [content-end] 1fr [main-end];
+
+        grid-template-rows:
+          [main-start] 100px [content-start]
+          100px [content-end] 100px [main-end];
+      }
+
+      .box1 {
+        background-color: aqua;
+
+        grid-column-start: 1; /* 1 line [main-start]*/
+
+        grid-row-start: 1; /* 1 line [main-start]*/
+        grid-row-end: 4; /* 4 line */
+      }
+
+      .box2 {
+        background-color: blueviolet;
+        grid-column-start: content-end;
+        grid-row-start: main-start;
+        grid-row-end: content-end;
+      }
+
+      .box3 {
+        background-color: green;
+        grid-column-start: content-start;
+        grid-row-start: main-start;
+      }
+
+      .box4 {
+        background-color: gray;
+        grid-column-start: content-start;
+        grid-column-end: main-end;
+        grid-row-start: content-end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box1">One</div>
+      <div class="box2">Two</div>
+      <div class="box3">Three</div>
+      <div class="box4">Four</div>
+    </div>
+  </body>
+</html>
