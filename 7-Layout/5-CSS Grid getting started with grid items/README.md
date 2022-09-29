@@ -3,7 +3,7 @@
 We are going to cover:
 
 - [CSS Grid getting started with grid items](https://blogs.crtil.com/css-grid-userIneterface#css-grid-item)
-
+- [GRID GARDEN game](https://cssgridgarden.com/)
 - Assignments
 
 ---
