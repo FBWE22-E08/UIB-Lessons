@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: repeat(5, 1fr);
+        gap: 10px;
+        background-color: #2196f3;
+        padding: 10px;
+      }
+
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+
+      .item1 {
+        grid-row: 1 / 4;
+      }
+
+      .item9 {
+        grid-column: 4 / span 2;
+        grid-row: 2 / span 2;
+      }
+
+      .item7 {
+        grid-column: 2 / span 4;
+        grid-row: 4 / span 2;
+      }
+
+      .item11 {
+        grid-column: 4 / span 3;
+        grid-row: 2 / span 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item4">4</div>
+      <div class="item5">5</div>
+      <div class="item6">6</div>
+      <div class="item7">7</div>
+      <div class="item8">8</div>
+      <div class="item9">9</div>
+      <div class="item10">10</div>
+      <div class="item11">11</div>
+      <div class="item12">12</div>
+      <div class="item13">13</div>
+      <div class="item14">14</div>
+      <div class="item15">15</div>
+      <div class="item16">16</div>
+    </div>
+  </body>
+</html>
