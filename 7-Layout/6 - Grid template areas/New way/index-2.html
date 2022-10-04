@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second example</title>
+  </head>
+  <style>
+    .container {
+      height: 600px;
+      display: grid;
+      border: 1px solid black;
+      gap: 10px;
+      grid-template-areas:
+        "item item-second item-second item-third"
+        "item-fourth item-fourth item-fifth item-third";
+      background-color: beige;
+    }
+
+    .container > * {
+      border: 2px solid black;
+      background-color: blue;
+    }
+
+    .item:first-child {
+      grid-area: item;
+    }
+
+    .item:nth-child(2) {
+      grid-area: item-second;
+    }
+
+    .item:nth-child(3) {
+      grid-area: item-third;
+    }
+    .item:nth-child(4) {
+      grid-area: item-fourth;
+    }
+    .item:nth-child(5) {
+      grid-area: item-fifth;
+    }
+
+    @media screen and (max-width: 800px) {
+      .container {
+        grid-template-areas:
+          "item-third item-fifth"
+          "item-second item-second"
+          "item-fourth item";
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="item">One</div>
+      <div class="item">Two</div>
+      <div class="item">Three</div>
+      <div class="item">Four</div>
+      <div class="item">Five</div>
+    </div>
+  </body>
+</html>
