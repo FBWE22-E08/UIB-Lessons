@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 100px;
+        background: blue;
+        transition: all 0.8s;
+      }
+
+      .item-1:hover {
+        transform: scale(2);
+      }
+
+      .item-2:hover {
+        transform: scale(0.7);
+      }
+
+      .item-3:hover {
+        transform: scaleX(0.7);
+      }
+
+      .item-4:hover {
+        transform: scaleY(1.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="item-1"></div>
+    <div class="item-2"></div>
+    <div class="item-3"></div>
+    <div class="item-4"></div>
+  </body>
+</html>

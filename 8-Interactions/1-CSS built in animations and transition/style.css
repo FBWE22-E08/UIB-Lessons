@@ -41,3 +41,36 @@
 #toggle:checked ~ .content {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.button {
+  position: absolute;
+  cursor: pointer;
+  font-weight: 800;
+  color: black;
+  font-size: 40px;
+  padding: 20px 50px;
+}
+
+.content p {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 50px;
+}
+
+.menu {
+  color: white;
+  margin-top: 70px;
+}
+
+.menu > li {
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.menu > li:hover {
+  background: #ccc;
+  color: black;
+}
