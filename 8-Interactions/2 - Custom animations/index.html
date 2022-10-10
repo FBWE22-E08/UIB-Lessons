@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom animations</title>
+    <style>
+      .ball {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: red;
+        /* Arbitrary name that we choose, we can have multiple animations */
+        animation-name: move-in-a-square, change-color;
+        /* How long the animation will last */
+        animation-duration: 4s;
+        /* How many times should the animation happen - number or infinite */
+        animation-iteration-count: infinite;
+        /* Where should the animation end */
+        animation-fill-mode: forwards;
+        /* Delay before the start of the animation */
+        /* animation-delay: 2s; */
+        /* Changing the direction of the animation */
+        animation-direction: alternate-reverse;
+        /* Timing: ie. easein, easeout, or a custom value */
+        animation-timing-function: cubic-bezier(0.89, -0.03, 0.21, 0.79);
+      }
+
+      .ball:hover {
+        /* Pausing the animation on hover */
+        animation-play-state: paused;
+      }
+
+      @keyframes change-color {
+        from {
+          background-color: red;
+        }
+
+        to {
+          background-color: green;
+        }
+      }
+
+      @keyframes move-in-a-square {
+        0% {
+          transform: none;
+        }
+        25% {
+          transform: translateX(100px);
+        }
+
+        50% {
+          transform: translateX(100px) translateY(100px);
+        }
+
+        75% {
+          transform: translateX(0px) translateY(100px);
+        }
+
+        100% {
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ball"></div>
+  </body>
+</html>
