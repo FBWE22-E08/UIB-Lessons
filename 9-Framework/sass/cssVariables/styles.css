@@ -1,0 +1,28 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --ghassan: rgb(75, 33, 165);
+  --borderValue: 10px;
+  --imageSrc: url(https://www.20i.com/blog/wp-content/uploads/2020/10/I-love-JavaScript.png);
+}
+
+body {
+  background: var(--imageSrc);
+}
+
+h2 {
+  border-bottom: var(--borderValue) solid var(--ghassan);
+}
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+  background-color: var(--white);
+  color: var(--blue);
+  border: var(--borderValue) solid var(--test, pink);
+  padding: 5px;
+}
