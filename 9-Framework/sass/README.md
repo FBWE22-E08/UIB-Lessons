@@ -1,19 +1,19 @@
-# CSS built in animations and transition (06/10/2022)
+# Sass CSS
 
 We are going to cover:
 
-- [CSS built in animations and transition](https://blogs.crtil.com/css-built-in-animations-userIneterface)
+- [Sass CSS](https://blogs.crtil.com/sass-css-userIneterface)
 - Assignments
 
 ---
 
 ## Assignments:
 
-**Assignment 1:** [UIB-interactions-secret-unfolds](https://classroom.github.com/a/cI8nMLdN)
+**Assignment 1:** [UIB-framework-variables](https://classroom.github.com/a/tWMEN9Ju)
 **Solution:** []()
 
 ---
 
 ### Resources:
 
-- [CSS built in animations and transition](https://blogs.crtil.com/css-built-in-animations-userIneterface)
+- [Sass CSS](https://blogs.crtil.com/sass-css-userIneterface)
