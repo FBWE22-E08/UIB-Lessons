@@ -1,1 +1,42 @@
 /**/
+
+$myColor: #ddd;
+$bodyBg: #ccc;
+$height: 800px;
+
+/*
+  $primary: red;
+  $brand: blue;
+  $normal: yellow;
+  $ghassan: green;
+
+*/
+
+// Map
+$colors: (
+  primary: red,
+  brand: blue,
+  normal: yellow,
+  ghassan: green,
+);
+
+body {
+  background-color: $bodyBg;
+}
+
+#container {
+  background-color: $myColor;
+  height: $height;
+}
+
+.primary {
+  background-color: map-get($colors, primary);
+}
+
+.brand {
+  background: map-get($colors, brand);
+}
+
+.normal {
+  background: map-get($colors, normal);
+}
