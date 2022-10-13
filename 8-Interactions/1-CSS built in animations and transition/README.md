@@ -2,18 +2,21 @@
 
 We are going to cover:
 
-- [CSS built in animations and transition](https://blogs.crtil.com/css-built-in-animations-userIneterface)
+- [How to Publish an HTML Website on GitHub Pages](https://blogs.crtil.com/publish-to-github-userIneterface)
 - Assignments
 
 ---
 
 ## Assignments:
 
-**Assignment 1:** [UIB-interactions-secret-unfolds](https://classroom.github.com/a/cI8nMLdN)
+**Assignment 1:** Publish to Github three projects from your choice 
+**Solution:** []()
+
+**Assignment 2:** [UIB_framework_bootstrap_benny-s-burgers (SASS)](https://classroom.github.com/a/3nSRw8xB)
 **Solution:** []()
 
 ---
 
 ### Resources:
 
-- [CSS built in animations and transition](https://blogs.crtil.com/css-built-in-animations-userIneterface)
+- [How to Publish an HTML Website on GitHub Pages](https://blogs.crtil.com/publish-to-github-userIneterface)
