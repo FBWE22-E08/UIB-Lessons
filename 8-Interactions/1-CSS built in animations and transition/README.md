@@ -1,22 +1,23 @@
 # CSS built in animations and transition (06/10/2022)
 
+
 We are going to cover:
 
-- [How to Publish an HTML Website on GitHub Pages](https://blogs.crtil.com/publish-to-github-userIneterface)
+- [CSS built in animations and transition](https://blogs.crtil.com/css-built-in-animations-userIneterface)
 - Assignments
 
 ---
 
 ## Assignments:
 
-**Assignment 1:** Publish to Github three projects from your choice 
-
-
-**Assignment 2:** [UIB_framework_bootstrap_benny-s-burgers (SASS)](https://classroom.github.com/a/3nSRw8xB)
+**Assignment 1:** [UIB-interactions-secret-unfolds](https://classroom.github.com/a/cI8nMLdN)
 **Solution:** []()
 
 ---
 
 ### Resources:
 
-- [How to Publish an HTML Website on GitHub Pages](https://blogs.crtil.com/publish-to-github-userIneterface)
+- [CSS built in animations and transition](https://blogs.crtil.com/css-built-in-animations-userIneterface)
+
+
+
