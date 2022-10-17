@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: blanchedalmond;
+    height: 60px;
+    padding: 20px;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+nav a::before {
+    font-family: 'FontAwesome';
+    content: '\f175';
+}
+
+.hero {
+    background-image: url(https://source.unsplash.com/600x400/?real-estate);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero div {
+    background-color: white;
+    font-size: 32px;
+    padding: 8px;
+    width: fit-content;
+    opacity: 0.8;
+}
+
+table {
+    width: 100%;
+    padding: 18px;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 40px;
+}
+
+td {
+    padding: 8px;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+tr :last-child {
+    border-left: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: gray;
+}
+
+.card {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+   margin: 0 auto;
+   display: block;
+}
+
+.card-section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-section {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 0 auto;
+}
+
+form > * {
+    margin-top: 8px;
+}
+
+form input {
+    height: 30px;
+}
+
+input[type="email"] {
+    background-color: blue;
+}
+
+form textarea {
+    height: 60px;
+}
+
+form button {
+    height: 30px;
+}
+
+
+@media screen and (max-width: 750px) {
+    .card-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-top: 8px;
+    }
+}
