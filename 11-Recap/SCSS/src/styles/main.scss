@@ -1,9 +1,60 @@
-$black: black;
+@import 'maps';
 
-h1 {
-    color: red;
+$red: #dc521b;
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h2 {
-    width: 200px; 
+@mixin text-overflow {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
+
+// 1. Nesting of elements
+.first {
+    background-color: black;
+    color: white;
+    h1 {
+        color: $red;
+    }
+}
+
+
+// 2. Nesting of selectors
+.card {
+    height: 200px;
+    width: 200px;
+    background-color: map-get($colors, primary);
+    @include flex-center();
+
+    &--title {
+        color: yellow;
+        @media screen and (max-width: 800px) {
+            color: $red;
+        }
+
+    }
+}
+
+// 3. Nesting of media queries
+.second {
+    background-color: black;
+    color: white;
+    
+    @media screen and (max-width: map-get($breakpoints, medium)) {
+        width: 200px;
+    }
+}
+
+.overflow {
+    height: 50px;
+    width: 200px;
+    background-color: map-get($colors, secondary);
+    @include text-overflow();
+}
+
+
