@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid recap</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .item,
+      .item-3 {
+        border: 1px solid black;
+        height: 40px;
+      }
+
+      .item-3 {
+        grid-column: 1 / span 2;
+      }
+
+      .grid-area {
+        display: grid;
+        grid-template-areas:
+          "first second second third"
+          "fourth fourth fifth sixth"
+          "seventh eighth ninth ninth"
+          "tenth twelveth . eleventh";
+      }
+
+      .area-item {
+        border: 2px solid black;
+        height: 40px;
+      }
+
+      .area-item:nth-child(1) {
+        grid-area: first;
+      }
+      .area-item:nth-child(2) {
+        grid-area: second;
+      }
+      .area-item:nth-child(3) {
+        grid-area: third;
+      }
+      .area-item:nth-child(4) {
+        grid-area: fourth;
+      }
+      .area-item:nth-child(5) {
+        grid-area: fifth;
+      }
+      .area-item:nth-child(6) {
+        grid-area: sixth;
+      }
+      .area-item:nth-child(7) {
+        grid-area: seventh;
+      }
+      .area-item:nth-child(8) {
+        grid-area: eighth;
+      }
+      .area-item:nth-child(9) {
+        grid-area: ninth;
+      }
+
+      .area-item:nth-child(10) {
+        grid-area: tenth;
+      }
+      .area-item:nth-child(11) {
+        grid-area: eleventh;
+      }
+      .area-item:nth-child(12) {
+        grid-area: twelveth;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item-3">3</div>
+      <div class="item">4</div>
+
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+
+      <div class="item">9</div>
+      <div class="item">10</div>
+      <div class="item">11</div>
+      <div class="item">12</div>
+    </div>
+
+    <div class="grid-area">
+      <div class="area-item">1</div>
+      <div class="area-item">2</div>
+      <div class="area-item">3</div>
+
+      <div class="area-item">4</div>
+      <div class="area-item">5</div>
+      <div class="area-item">6</div>
+
+      <div class="area-item">7</div>
+      <div class="area-item">8</div>
+      <div class="area-item">9</div>
+
+      <div class="area-item">10</div>
+      <div class="area-item">11</div>
+      <div class="area-item">12</div>
+    </div>
+  </body>
+</html>
