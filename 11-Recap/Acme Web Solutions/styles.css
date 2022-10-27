@@ -22,10 +22,6 @@ footer {
   height: 50px;
 }
 
-header {
-  height: 200px;
-}
-
 main > section {
   height: 300px;
 }
@@ -105,6 +101,11 @@ a {
 }
 
 /* Header*/
+header {
+  height: 500px;
+  color: white;
+  text-align: center;
+}
 
 #showcase {
   position: relative;
@@ -115,6 +116,26 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: 0.5em 0;
+}
+
+.btn:hover {
+  background: #eaeaea;
+  color: #333;
+}
+
+.bg-video {
+  width: 100%;
+  filter: brightness(60%);
 }
 
 /************************Desktop************************/
