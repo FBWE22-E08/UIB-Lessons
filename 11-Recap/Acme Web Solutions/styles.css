@@ -104,6 +104,19 @@ a {
   display: none;
 }
 
+/* Header*/
+
+#showcase {
+  position: relative;
+}
+
+.content-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /************************Desktop************************/
 @media (min-width: 700px) {
   .menu-button {
