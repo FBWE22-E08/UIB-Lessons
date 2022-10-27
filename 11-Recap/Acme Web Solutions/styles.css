@@ -10,9 +10,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-nav,
 footer,
-header,
 main > section {
   border: 1px solid;
 }
@@ -136,6 +134,28 @@ header {
 .bg-video {
   width: 100%;
   filter: brightness(60%);
+  z-index: -1;
+}
+
+/************Main****************/
+
+/* section A*/
+
+main {
+  position: relative;
+}
+
+.section-a {
+  background: #eaeaea;
+  color: #333;
+  padding-bottom: 2em;
+  z-index: 3;
+  text-align: center;
+  padding: 20px;
+}
+
+.section-a h2 {
+  padding-bottom: 20px;
 }
 
 /************************Desktop************************/
@@ -150,6 +170,18 @@ header {
     align-items: center;
     height: 100%;
     gap: 20px;
+  }
+
+  .content-text {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .content-text p {
+    width: 50%;
   }
 }
 /************************Desktop************************/
